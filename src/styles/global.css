@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  top: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  --background-color: #181818ff;
+  --font-color: #dfd8d8ff;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  color: var(--font-color);
+  background-color: var(--background-color);
+  line-height: 1.5;
+  font-weight: 400;
+  /* background-color: #242424; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
