@@ -7,6 +7,7 @@ export const Chatbot = {
   defaultResponses: {
     'hello hi': `Hello! How can I help you?`,
     'how are you': `I'm doing great! How can I help you?`,
+    'wanna date me?': `Sorry, I rather stay single`,
     'flip a coin': function () {
       const randomNumber = Math.random()
       if (randomNumber < 0.5) {
@@ -19,6 +20,7 @@ export const Chatbot = {
       const diceResult = Math.floor(Math.random() * 6) + 1
       return `Sure! You got ${diceResult}`
     },
+
     'what is the date today': function () {
       const now = new Date()
       const months = [
