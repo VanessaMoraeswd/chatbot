@@ -1,7 +1,7 @@
-import React from 'react'
-import '../styles/Chatmessage.css'
 import robotImg from '../assets/images/robot-img.jpeg'
 import userImg from '../assets/images/user-img.jpeg'
+
+import '../styles/Chatmessage.css'
 
 export function ChatMessage({ message, sender }) {
   return (

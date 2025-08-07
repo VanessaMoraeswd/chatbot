@@ -1,9 +1,11 @@
 input {
   padding: 1rem;
   border-radius: 5px;
+  font-size: 1rem;
 }
 
 button {
   padding: 1rem;
   border-radius: 5px;
+  margin-left: 1rem;
 }
